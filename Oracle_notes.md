@@ -6,3 +6,7 @@
     - Service Name (or SID)
 - If need to see the server (db names) auto fetched in the dropdown list then need to use **"`tnsnames.ora`"** **file** along with **oracle client**.
 -------------------
+- Oracle internally stors **decimal** as **number**
+- DECIMAL(p,s) → ANSI SQL synonym for NUMBER(p,s).
+- Both mean the same thing.
+-----------
