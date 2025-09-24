@@ -10,3 +10,9 @@
 - DECIMAL(p,s) → ANSI SQL synonym for NUMBER(p,s).
 - Both mean the same thing.
 -----------
+#### Case sensitivity in oracle:-
+* By default:
+- Table names and column names are not case-sensitive.
+- Oracle automatically stores them in uppercase in the data dictionary.
+- If you create columns/tables with double quotes, Oracle preserves the case and makes it case-sensitive.
+- Ex. ```CREATE TABLE "Emp" ("Emp_Id" NUMBER, "Emp_Name" VARCHAR2(50));```
