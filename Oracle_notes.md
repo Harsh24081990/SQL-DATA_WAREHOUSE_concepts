@@ -4,5 +4,5 @@
     - Hostname / IP
     - Port (default 1521)
     - Service Name (or SID)
-- If need to see the server (db names) auto fetched in the dropdown list then need to use **tnsnames.ora** **file** along with **oracle client**.
+- If need to see the server (db names) auto fetched in the dropdown list then need to use **"`tnsnames.ora`"** **file** along with **oracle client**.
 -------------------
