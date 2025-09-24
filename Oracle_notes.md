@@ -1,6 +1,6 @@
 - Oracle db can be accessed using '**Sql Developer**' or '**Toad for Oracle**'.
 - **Oracle Client** needs to be installed if using Toad and want to see all the available db server names in a drop down list in toad.
-- sql developer uses it's inbuilt JDBC driver, so it can be used without oracle client installation if we know the following details and don't need db list auto fetched in a dropdown.
+- sql developer uses it's inbuilt **JDBC driver**, so it can be used without oracle client installation if we know the following details and don't need db list auto fetched in a dropdown.
     - Hostname / IP
     - Port (default 1521)
     - Service Name (or SID)
